@@ -1,0 +1,51 @@
+.CurrencyItem{
+    list-style-type: none;
+    width: 89%;
+    background-color: transparent;
+    box-shadow: 0 0 0.7rem 0 rgba(145, 144, 144, 0.616);
+    padding: 2rem;
+    margin-bottom: 5%;
+    border-radius: 1rem;
+    text-align: left;
+    height: 1.5rem;
+    overflow: hidden;
+    transition: 0.3s ease-out;
+    animation-name: fadeIn;
+    animation-duration: 1000ms;
+}
+  
+  
+.CryptoForm img{
+    width: 4%;
+    margin-right: 1rem;
+}
+
+.Name{
+    margin-bottom: 202px;
+}
+
+.Price{
+    float: right;
+    margin-right: 25%;
+}
+
+.Info{
+    font-size: 1rem;
+    line-height: 6rem;
+    margin-left: 4%;
+    color: rgb(194, 194, 194);
+}
+
+.active{
+    height: 15rem;
+}
+
+@keyframes fadeIn{
+    from{
+        transform: scale(0);
+    }
+
+    to{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,9 @@
+.Morebtn{
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+    position: absolute;
+    right: 28%;
+}
